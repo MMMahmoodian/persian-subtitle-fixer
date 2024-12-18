@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	directory := "subs" // The current directory
+	directory := "example" // The current directory
 
 	subs, err := getFilesByExtension(directory, "srt")
 	if err != nil {
